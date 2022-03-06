@@ -15,9 +15,6 @@ body {
 body {
   align-items: center;
   background-color: #fff;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
 }
 
 .container {
