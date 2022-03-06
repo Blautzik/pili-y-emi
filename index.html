@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:title" content="Nos casamos!">
+    <meta property="og:image" content="foto.jpeg">
+    <title>Nos Casamos!</title>
+    <script src="script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main id="pageWrapper">
+        <div class="heroContainer">
+            <div class="heroImg">
+                <div class="textoContainer">
+                    <h1 class="title">Pili & Emi</h1>
+                    <h2 class="subtitle">¡Nos Casamos!</h2>
+                    <div class="flechita">
+                        <div class="start-arrow-down"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cuentaContainer">
+            <h2 id="headline">Estás invitado!</h2>
+            <h6>Queremos que seas parte de este momento tan importante</h6>
+            <div id="countdown">
+                    <div class="cuentaBox">
+                        <div class="numeroCont"><span id="days" class="numerito"></span></div>
+                        <span class="de">DIAS</span> 
+                    </div>
+                    <div class="cuentaBox">
+                        <div class="numeroCont"><span id="hours" class="numerito"></span></div>
+                        <SPAN class="de">HORAS</SPAN>
+                    </div>
+                    <div class="cuentaBox">
+                        <div class="numeroCont"><span id="minutes" class="numerito"></span></div>
+                        <span class="de">MINUTOS</span>
+                    </div>
+                    <div class="cuentaBox">
+                        <div class="numeroCont"><span id="seconds" class="numerito" ></span></div>
+                        <span class="de">SEGUNDOS</span>
+                    </div>
+            </div>
+        </div>
+        <div class="ceremoniaContainer">
+            <div class="icono"><img src="./anillos-de-boda.png"></div>
+            <h3>CIVIL</h3>
+            <h5>Delegación Registró Provincial de las Personas Lomas de Zamora</h5>
+            <p>Viernes 22 de Abril del 2022 a las 11 hs </p>
+            <button class="btn-rosa"><a href="https://goo.gl/maps/N761XC282xKbjAnJA">VER UBICACION</a></button>
+        </div>
+
+
+        <div class="ceremoniaContainer">
+            <div class="icono"><img src="./champan.png"></div>
+            <h3>CEREMONIA</h3>
+            <h5>Lorenza Eventos</h5>
+            <p>Viernes 22 de Abril de 2022 a las 14 hs. (Puntual)</p>
+            <button class="btn-rosa"><a href="https://goo.gl/maps/ETNqGJFG98U8Wx7r5">VER UBICACION</a></button>
+        </div>
+
+        <div class="ceremoniaContainer">
+            <div class="icono"><img src="./ropa.png"></div>
+            <h3>DRESSCODE</h3>
+            <h5>FORMAL</h5>
+        </div>
+
+
+
+        <div class="hashtagContainer">
+            <div class="opaco">
+            <h2>#BODAPILIYEMI</h2>
+            <p>subí tu foto con el hashtag</p>
+            <button class="ig_btn"><a href="http://instagram.com/explore/tags/bodapiliyemi">VER FOTOS EN INSTAGRAM</a></button>
+            </div>
+        </div>
+
+
+        <div class="ceremoniaContainer">
+            <div class="icono"><img src="./gift.png"></div>
+            <h3>REGALO</h3>
+            <h5 id="datosbancarios">Lo que nos importa es que en este día tan especial contemos con tu presencia pero si queres podes ayudarnos a seguir viajando….</h5>
+            <button class="btn-rosa" data-bs-toggle="modal" data-bs-target="#exampleModal""><a class="datos">VER DATOS BANCARIOS</a></button>
+        </div>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Datos bancarios</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Banco ICBC </p>
+                    <p>Caja de ahorro $ 0851/01121263/25</p>
+                    <p>CBU: 0150851001000121263259</p>
+                    <p>CUIL/CUIT: 27-31914402-7</p>
+                    <p>Alias: pilar.mozas</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="ceremoniaContainer">    
+            <h3 id="confirmar">CONFIRMAR ASISTENCIA</h3>
+            <p>confirmar antes del 22 de marzo del 2022</p>
+            <button class="btn-rosa"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfe0RJcg0MqfQ4Uief7lCG_QSbb5OlL-oD1ELWhwgKdvWRpGg/viewform?usp=sf_link">CONFIRMAR ASISTENCIA</a></button>
+        </div>
+
+
+        <div class="esperamosContainer">
+            <h2 class="cursiva">Te esperamos!</h2>
+        </div>
+
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>   
+</body>
+</html>

@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Josefin+Sans:wght@300;400&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  color: #333;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Great Vibes", cursive;
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 1px 0px 9px rgb(49, 49, 49);
+  font-weight: normal;
+}
+
+.subtitle {
+  font-family: "Josefin Sans", sans-serif;
+  color: #fff;
+  font-weight: 100;
+}
+
+.textoContainer {
+  text-align: center;
+}
+
+.numeroCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  background-color: #f68c85;
+  border-radius: 50%;
+}
+
+.cuentaBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 92px;
+}
+
+.cuentaContainer {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+#pageWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+
+.heroImg {
+  width: 100vw;
+  height: 75vh;
+  background: url(foto.jpeg);
+  background-size: cover;
+  background-position: center;
+  max-width: 550px;
+  background-position-x: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#countdown {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.numerito {
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: lighter;
+  font-size: 1.6rem;
+  transform: translateY(1px);
+}
+
+#headline {
+  margin-top: 4rem;
+  font-family: "Great Vibes", cursive;
+  color: #676764;
+  font-size: 3.5rem;
+  font-weight: normal;
+}
+
+h6 {
+  color: #676764;
+  font-family: "Josefin Sans", sans-serif;
+  margin-top: -0.5rem;
+  margin-bottom: 2.5rem;
+  font-size: 1.3rem;
+  text-align: center;
+  font-weight: 300;
+  max-width: 75vw;
+}
+
+.de {
+  font-family: "Josefin Sans", sans-serif;
+  color: #676764;
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+
+.icono > img {
+  max-width: 150px;
+  margin-top: 3rem;
+  width: 15vw;
+}
+
+.ceremoniaContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Josefin Sans", sans-serif;
+  width: 80vw;
+}
+
+.ceremoniaContainer h3 {
+  font-size: 1.5rem;
+  color: #676764;
+  margin-top: 1rem;
+}
+
+.ceremoniaContainer h5 {
+  font-size: 1rem;
+  color: #676764;
+  text-align: center;
+  font-weight: normal;
+  margin-top: 0.8rem;
+}
+
+.ceremoniaContainer p {
+  font-size: 1rem;
+  color: #676764;
+  text-align: center;
+  font-weight: normal;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+#datosbancarios {
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: ivory;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 0.7rem;
+  font-weight: 300;
+}
+
+.datos {
+  text-decoration: none;
+  color: ivory;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 0.7rem;
+  font-weight: 300;
+}
+
+.btn-rosa {
+  background-color: #f68c85;
+  padding: 1rem 2rem;
+  border: none;
+}
+
+.hashtagContainer {
+  width: 100vw;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  background: radial-gradient(
+    circle at 10% 187%,
+    #fdf497 0%,
+    #fdf497 4%,
+    #fd5949 33%,
+    #d6249f 76%,
+    #285aeb 129%
+  );
+}
+
+.esperamosContainer {
+  font-family: "Great Vibes", cursive;
+  color: #676764;
+  font-weight: lighter;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.esperamosContainer h2 {
+  font-size: 3.5rem;
+  font-weight: lighter;
+}
+
+#confirmar {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.hashtagContainer h2 {
+  text-align: center;
+  color: ivory;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+}
+
+.hashtagContainer p {
+  text-align: center;
+  color: ivory;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  margin-top: 1rem;
+}
+
+.ig_btn {
+  background: transparent;
+  border: 2px solid #fff;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+li span {
+  font-size: 2.5rem;
+}
+
+.start-arrow-down::after {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  border-right: 6px solid #676764a7;
+  border-bottom: 6px solid #676764a7;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-animation: 3s arrow infinite ease;
+  animation: 3s arrow infinite ease;
+}
+
+.flechita {
+  transform: translateY(210px);
+}
+
+.opaco {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dfe3ff3d;
+}
+
+@-webkit-keyframes arrow {
+  0%,
+  100% {
+    top: 50px;
+  }
+  50% {
+    top: 80px;
+  }
+}
+@keyframes arrow {
+  0%,
+  100% {
+    top: 50px;
+  }
+  50% {
+    top: 80px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  li {
+    font-size: calc(1.125rem * var(--smaller));
+  }
+
+  li span {
+    font-size: calc(3.375rem * var(--smaller));
+  }
+}
